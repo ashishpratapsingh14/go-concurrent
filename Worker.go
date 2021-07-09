@@ -2,7 +2,7 @@ package main
 
 // Job represents the job to be run
 type Job struct {
-	Payload interface{}
+	Payload  interface{}
 	Executor func(data interface{}) error
 }
 
